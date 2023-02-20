@@ -1,0 +1,73 @@
+.container_first{
+    width: 100%;
+    height: 100vh;
+    padding: 24px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.one{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: #007F5F;
+}
+
+.two{
+    grid-column: 1/3;
+    grid-row: 4/3;
+    background: #2B9348;
+}
+
+.three{
+    background: #55A630;
+}
+
+.four{
+    grid-area: 3 / 1 / 5 /2;
+    background: #80B918;
+}
+
+.five{
+    background: #AACC00;
+}
+
+.six{
+    background: #BFD200;
+}
+
+.seven{
+    background: #DDDF00;
+}
+
+.eight{
+    background: #EEEF20;
+}
+
+.nine{
+    background: #FFFF3F;
+}
+
+.ten{
+    background: #D4D700;
+}
+
+.eleven{
+    background: #007F5F;
+}
+
+.bottom{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 24px 34px;
+    background: #9BC1BC;
+    margin-top: -145px;
+
+}
